@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 2 elements to &apos;views&apos;&#x0D;&#x0A;- Original project: &apos;TeamProject_021_Weather&apos;&#x0D;&#x0A;- Destination element: &apos;views&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     home.jsp&#x0D;&#x0A;     login.jsp&#x0D;&#x0A;- Update references to refactored element" description="Move files" element1="src/main/webapp/WEB-INF/views/home.jsp" element2="src/main/webapp/WEB-INF/views/login.jsp" files="2" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1624605530807" target="/TeamProject_022_Weather/src/main/webapp/WEB-INF/views" units="0" version="1.0"/>
+</session>

@@ -1,0 +1,87 @@
+
+6월 16, 2021 11:19:44.618 NEW SESSION
+6월 16, 2021 11:19:44.618 [4860:7224:0616/111944.616:ERROR:device_event_log_impl.cc(214)] [11:19:44.616] USB: usb_device_handle_win.cc:1058 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+6월 16, 2021 11:19:44.641 [4860:9044:0616/111944.641:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+6월 16, 2021 11:20:06.903 [4860:9044:0616/112006.903:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+6월 16, 2021 11:20:54.71 [4860:9044:0616/112054.071:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+
+6월 16, 2021 16:12:43.158 NEW SESSION
+6월 16, 2021 16:12:43.158 [6384:2680:0616/161243.156:ERROR:device_event_log_impl.cc(214)] [16:12:43.157] USB: usb_device_handle_win.cc:1058 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+6월 16, 2021 16:18:37.222 [9292:8324:0616/161837.222:ERROR:device_event_log_impl.cc(214)] [16:18:37.222] USB: usb_device_handle_win.cc:1058 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+
+6월 21, 2021 16:16:22.370 NEW SESSION
+6월 21, 2021 16:16:22.370 [13908:7712:0621/161622.368:ERROR:device_event_log_impl.cc(214)] [16:16:22.368] USB: usb_device_handle_win.cc:1058 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
+6월 22, 2021 02:23:02.975 [13908:7268:0622/022302.975:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+6월 22, 2021 02:23:03.474 [13908:7268:0622/022303.474:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+6월 22, 2021 15:59:36.639 [13908:7268:0622/155936.639:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+6월 22, 2021 15:59:36.640 [13908:3192:0622/155936.640:ERROR:get_updates_processor.cc(255)] PostClientToServerMessage() failed during GetUpdates with error 2
+6월 22, 2021 15:59:36.644 [13908:3192:0622/155936.643:ERROR:get_updates_processor.cc(255)] PostClientToServerMessage() failed during GetUpdates with error 2
+6월 22, 2021 15:59:41.806 [13908:7268:0622/155941.805:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -105
+6월 22, 2021 15:59:41.806 [13908:4808:0622/155941.806:ERROR:get_updates_processor.cc(255)] PostClientToServerMessage() failed during GetUpdates with error 2
+6월 22, 2021 16:00:37.156 [13908:7268:0622/160037.156:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+6월 22, 2021 16:01:13.341 [13908:7268:0622/160113.340:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+6월 23, 2021 16:16:33.830 [13908:7268:0623/161633.829:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -105
+6월 23, 2021 16:16:49.518 [13908:7268:0623/161649.518:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -105
+6월 23, 2021 16:16:50.263 [13908:14696:0623/161649.518:ERROR:get_updates_processor.cc(255)] PostClientToServerMessage() failed during GetUpdates with error 2
+6월 23, 2021 16:16:54.295 [13908:7268:0623/161654.295:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -105
+6월 23, 2021 16:17:13.102 [13908:7712:0623/161713.102:ERROR:device_event_log_impl.cc(214)] [16:17:13.102] USB: usb_service_win.cc:258 Failed to get device driver name: 요소가 없습니다. (0x490)
+6월 23, 2021 16:17:14.342 [13908:7268:0623/161714.342:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+6월 24, 2021 15:56:07.321 [13908:7268:0624/155607.321:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -105
+6월 24, 2021 15:56:07.351 [13908:6644:0624/155607.322:ERROR:get_updates_processor.cc(255)] PostClientToServerMessage() failed during GetUpdates with error 2
+6월 24, 2021 15:56:09.292 [13908:7268:0624/155609.291:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+6월 25, 2021 16:14:33.524 [13908:7268:0625/161433.523:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -105
+6월 25, 2021 16:14:34.315 [13908:15148:0625/161433.526:ERROR:get_updates_processor.cc(255)] PostClientToServerMessage() failed during GetUpdates with error 2
+6월 25, 2021 16:14:36.657 [13908:7268:0625/161436.656:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -105
+6월 25, 2021 16:15:05.694 [13908:7268:0625/161505.694:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+6월 25, 2021 17:27:40.190 [13908:7268:0625/172740.189:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+6월 28, 2021 07:59:05.394 [13908:7268:0628/075905.394:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+6월 28, 2021 07:59:07.409 [13908:7268:0628/075907.407:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+6월 28, 2021 07:59:07.411 [13908:7268:0628/075907.411:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+6월 28, 2021 07:59:07.412 [13908:7268:0628/075907.411:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+6월 28, 2021 07:59:07.413 [13908:6372:0628/075907.411:ERROR:get_updates_processor.cc(255)] PostClientToServerMessage() failed during GetUpdates with error 2
+6월 28, 2021 16:00:46.504 [13908:7268:0628/160046.504:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -105
+6월 28, 2021 16:00:48.22 [13908:7268:0628/160048.021:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+6월 28, 2021 16:00:48.22 [13908:7268:0628/160048.022:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+6월 28, 2021 16:01:30.387 [13908:7268:0628/160130.386:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -105
+6월 28, 2021 16:01:30.400 [13908:7972:0628/160130.400:ERROR:get_updates_processor.cc(255)] PostClientToServerMessage() failed during GetUpdates with error 2
+6월 28, 2021 16:01:30.407 [13908:7268:0628/160130.406:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+6월 28, 2021 16:01:33.854 [13908:7268:0628/160133.853:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -105
+6월 28, 2021 16:01:33.858 [13908:7268:0628/160133.858:ERROR:registration_request.cc(246)] Registration URL fetching failed.
+6월 28, 2021 16:01:33.858 [13908:3192:0628/160133.858:ERROR:get_updates_processor.cc(255)] PostClientToServerMessage() failed during GetUpdates with error 2
+6월 28, 2021 16:10:34.287 [13908:7268:0628/161034.287:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -105
+6월 29, 2021 15:43:28.299 [13908:288:0629/154327.509:ERROR:get_updates_processor.cc(255)] PostClientToServerMessage() failed during GetUpdates with error 2
+6월 29, 2021 15:43:28.326 [13908:7268:0629/154328.326:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+6월 29, 2021 15:43:28.327 [13908:15780:0629/154328.327:ERROR:get_updates_processor.cc(255)] PostClientToServerMessage() failed during GetUpdates with error 2
+6월 29, 2021 15:43:30.426 [13908:7268:0629/154330.425:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -105
+6월 29, 2021 15:43:30.429 [13908:15780:0629/154330.428:ERROR:get_updates_processor.cc(255)] PostClientToServerMessage() failed during GetUpdates with error 2
+6월 29, 2021 15:43:30.433 [13908:15780:0629/154330.433:ERROR:get_updates_processor.cc(255)] PostClientToServerMessage() failed during GetUpdates with error 2
+6월 30, 2021 10:30:01.988 [13908:7268:0630/103001.802:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -105
+6월 30, 2021 10:30:13.134 [13908:7268:0630/103013.133:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -105
+6월 30, 2021 10:30:13.140 [13908:7512:0630/103013.140:ERROR:get_updates_processor.cc(255)] PostClientToServerMessage() failed during GetUpdates with error 2
+6월 30, 2021 10:30:23.469 [13908:7268:0630/103023.469:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -105
+6월 30, 2021 10:30:23.471 [13908:8784:0630/103023.470:ERROR:get_updates_processor.cc(255)] PostClientToServerMessage() failed during GetUpdates with error 2
+6월 30, 2021 10:30:28.105 [13908:7268:0630/103028.104:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+6월 30, 2021 10:30:33.619 [13908:7268:0630/103033.618:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -105
+6월 30, 2021 10:30:33.622 [13908:6424:0630/103033.622:ERROR:get_updates_processor.cc(255)] PostClientToServerMessage() failed during GetUpdates with error 2
+6월 30, 2021 10:30:36.629 [13908:7268:0630/103036.629:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -105
+6월 30, 2021 10:30:36.632 [13908:8784:0630/103036.632:ERROR:get_updates_processor.cc(255)] PostClientToServerMessage() failed during GetUpdates with error 2
+6월 30, 2021 10:37:17.31 [13908:7268:0630/103717.031:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -105
+6월 30, 2021 10:37:17.301 [13908:15100:0630/103717.032:ERROR:get_updates_processor.cc(255)] PostClientToServerMessage() failed during GetUpdates with error 2
+6월 30, 2021 10:37:28.861 [13908:6424:0630/103728.861:ERROR:get_updates_processor.cc(255)] PostClientToServerMessage() failed during GetUpdates with error 2
+6월 30, 2021 10:38:13.450 [13908:7268:0630/103813.450:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -105
+6월 30, 2021 10:38:13.451 [13908:8784:0630/103813.451:ERROR:get_updates_processor.cc(255)] PostClientToServerMessage() failed during GetUpdates with error 2
+6월 30, 2021 10:38:23.357 [13908:7268:0630/103823.356:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+6월 30, 2021 10:39:38.464 [13908:7268:0630/103938.463:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -105
+6월 30, 2021 10:39:38.465 [13908:4928:0630/103938.464:ERROR:get_updates_processor.cc(255)] PostClientToServerMessage() failed during GetUpdates with error 2
+6월 30, 2021 16:17:20.181 [13908:7268:0630/161720.181:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -105
+6월 30, 2021 16:17:20.183 [13908:5864:0630/161720.183:ERROR:get_updates_processor.cc(255)] PostClientToServerMessage() failed during GetUpdates with error 2
+6월 30, 2021 18:13:44.851 [13908:7268:0630/181344.609:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -105
+6월 30, 2021 18:13:52.162 [13908:7268:0630/181352.161:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -105
+7월 01, 2021 16:29:36.633 [13908:7268:0701/162936.632:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -105
+7월 01, 2021 16:40:34.659 [13908:7268:0701/164034.658:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -105
+7월 02, 2021 13:28:01.545 [13908:7268:0702/132801.545:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -106
+7월 02, 2021 13:28:01.546 [13908:364:0702/132801.546:ERROR:get_updates_processor.cc(255)] PostClientToServerMessage() failed during GetUpdates with error 2
+7월 02, 2021 13:28:01.549 [13908:364:0702/132801.549:ERROR:get_updates_processor.cc(255)] PostClientToServerMessage() failed during GetUpdates with error 2
+7월 02, 2021 16:30:23.169 [13908:7268:0702/163023.169:ERROR:connection_factory_impl.cc(429)] Failed to connect to MCS endpoint with error -105
+7월 02, 2021 16:30:27.301 [13908:12080:0702/163027.300:ERROR:gcm_store_impl.cc(652)] LevelDB remove failed: NotFound: 
+7월 02, 2021 16:30:27.302 [13908:7268:0702/163027.300:ERROR:mcs_client.cc(526)] GCM Update failed!
