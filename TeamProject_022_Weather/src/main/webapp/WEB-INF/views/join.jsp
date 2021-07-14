@@ -3,163 +3,51 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
 <c:set var="rootPath" value="${pageContext.request.contextPath}" />
 <!DOCTYPE html>
-<html>
+<html lang="ko">
 <head>
-<meta charset="UTF-8">
-<title>Insert title here</title>
-
-<style>
-* {
-	margin: 10;
-	padding: 10;
-}
-
-body {
-	background: linear-gradient(130deg, #7389d0, #eebdc3);
-	background-attachment: fixed;
-}
-
-h1, h4 {
-	/* 상단 로고 부분 */
-	color: white;
-	text-shadow: 0px 0px 20px rgb(234, 237, 176);
-}
-
-h1 {
-	text-align: center;
-	font-size: 70px;
-	height: 50px;
-}
-
-h4 {
-	font-size: 28px;
-	text-align: center;
-}
-
-@
-keyframes sparkle {from { background-position:0%100%;
-	
-}
-
-to {
-	background-position: 200% 100%;
-}
-
-}
-section {
-	/* 개인정보 등록하는 부분을 감싼 옅은 선 */
-	display: grid;
-	justify-items: center;
-}
-
-fieldset {
-	/* 개인정보 등록하는 부분을 감싼 옅은 선 */
-	border-radius: 20px;
-	display: grid;
-	justify-items: center;
-}
-
-table {
-	border-collapse: collapse;
-}
-
-.joinTable th, .joinTable td {
-	padding: 10px;
-	box-sizing: border-box;
-	border-bottom: 1px solid #ddd;
-}
-
-.joinTable th {
-	text-align: center;
-	background-color: gray;
-	border-radius: 15px;
-	margin: 10px 0px;
-}
-
-.joinTable td {
-	width: 400px;
-}
-.joinTable td#id_check {
-	width: 100px;
-	cursor: pointer;
-	border: 0;
-	border-radius: 5px;
-}
-
-.joinTable .textForm {
-	width: 300px;
-	height: 30px;
-	border: 0;
-	border-radius: 5px;
-}
-
-.joinTable:hover .textForm:hover {
-	animation: sparkle 4s infinite linear;
-	background: linear-gradient(90deg, #7389d0, #eebdc3, #7389d0);
-	background-size: 300% 100%;
-	border-radius: 4px;
-	z-index: -1;
-	transform: scale(0.99) translateY(3px);
-}
-
-.joinTable .btn {
-	
-}
-
-.btn {
-	display: inline-block;
-	color: rgb(90, 90, 90);
-	transition: all 0.3s ease-out;
-	background: linear-gradient(270deg, rgba(223, 190, 106, 0.8),
-		rgba(146, 111, 52, 0.8), rgba(34, 34, 34, 0), rgba(34, 34, 34, 0));
-	background-position: 1% 50%;
-	background-size: 300% 300%;
-	border: 1px solid rgba(223, 190, 106, 0.3);
-	padding: 5px;
-	font-weight: bold;
-	font-size: 15px;
-}
-
-.btn:hover {
-	background-position: 99% 50%;
-}
-
-button {
-	cursor: pointer;
-	margin-top: 10px;
-	border-radius: 5px;
-}
-</style>
-
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>회원가입</title>
 </head>
+<link href="${rootPath}/static/css/join.css?ver=2021-07-09-001"
+	rel="stylesheet" />
 <body>
-	<h1>Sign Up</h1>
-	<h4>WEATHER & OOTD</h4>
+	<figure class="snip1432">
+		<figcaption>
+			<div>
+				<h1>Sign Up</h1>
+				<h1>회원가입</h1>
+			</div>
+			<div>
+				<h4>WEATHER & OOTD</h4>
+			</div>
+		</figcaption>
+	</figure>
 	<section id="join_wrap">
-		<form class="mem_join" method="POST">
+		<form method="POST" class="form_join">
 			<fieldset>
 				<table class="joinTable">
 					<tr>
+						<th class="first"><label for="user_name">이름</label></th>
+						<td><input type="text" id="us_name" class="textForm"
+							placeholder="이름을 입력..." name="us_name" />
+					</tr>
+					<tr>
 						<th class="first"><label for="us_id">ID</label></th>
-						
-						<td >
-							<input type="text" id="us_id" name="us_id" class="textForm" placeholder="ID를 입력...">
-							<button id="id_check" type="button">중복확인</button>
-						</td>
+						<td><input type="text" id="us_id" class="textForm"
+							placeholder="ID를 입력..." name="us_id" />
+							<button id="id_check" type="button">중복확인</button></td>
 					</tr>
 					<tr>
 						<th><label for="user_pwd">PW</label></th>
-						<td><input type="password" id="us_pw" name="us_pw" class="textForm"
-							placeholder="비밀번호를 입력..."></td>
+						<td><input type="password" id="us_pw" class="textForm"
+							placeholder="비밀번호를 입력..." name="us_pw" /></td>
 					</tr>
-					 <tr>
-            <th><label for="user_pwd_check">PW(check)</label></th>
-            <td><input type="password" id="us_pw_ch" class="textForm" placeholder="비밀번호를 재확인..."></td>
-          </tr>
 					<tr>
-						<th><label for="us_name">이름</label></th>
-						<td><input type="text" name="us_name" class="textForm"
-							placeholder="이름을 입력...">
+						<th><label for="user_pwd_check">PW(check)</label></th>
+						<td><input type="password" id="us_pw_ch" class="textForm"
+							placeholder="비밀번호를 재확인..." /></td>
 					</tr>
 					<tr>
 						<th>지역선택</th>
@@ -182,77 +70,112 @@ button {
 					</tr>
 					<tr>
 						<th>상세주소</th>
-						<td><input name="us_dist" class="textForm"></td>
+						<td><input class="textForm" name="us_dist" /></td>
 					</tr>
 				</table>
-				<button type="button" class="btn">가입하기</button>
+				<button type="button" class="btn_join" id="btn_join">가입하기</button>
+				<button type="button" id="btn_home">홈으로</button>
 			</fieldset>
 		</form>
 	</section>
 </body>
 <script>
-// document.querySelector("table.joinTable").addEventListener("click", (e)=>{
-	
+let user_name = document.querySelector("input#us_name")
+let user_id = document.querySelector("input#us_id")
+let user_pwd = document.querySelector("input#us_pw")
+let user_pwd_ch = document.querySelector("input#us_pw_ch")
+let btn_home = document.querySelector("button#btn_home")
+let btn_join = document.querySelector("button#btn_join")
+let btn_idcheck = document.querySelector("button#id_check")
+let check = "0"
 
-	  let objId = document.querySelector("td input#us_id");
-	  let objPw1 = document.querySelector("td input#us_pw");
-	  let objPw2 = document.querySelector("td input#us_pw_ch");
-	  
-	  
-	  document.querySelector("button#id_check").addEventListener("click", ()=> {
-		  let json = { objId };
-		  let jsonString = JSON.stringify(json);
-		  fetch("${rootPath}/idcheck/" + objId.value)
-		  .then(res=>res.text())
-		  .then(result=>{
-			  if(result == "1") {
-				  alert("이미 사용중인 아이디 입니다.")
-				  objId.focus();
-				  objId.value = ""
-				  return false;
-			  } else {
-				  alert("사용할 수 있는 아이디 입니다.")
-			  }
-			  
-			  
-		  })
-		  		// , {
-			  	// method:"POST",
-				// body : jsonString,
-				// headers : {
-				// 	"content-Type" : "applications/json"	
-				// }
-		  // })
-		  
-	  })
-	  
-	  
-	  
-	  
-	  document.querySelector("button.btn").addEventListener("click", ()=> {
-		  
-	  if((objId.value) == "") {
-		  alert("ID를 입력하세요")
-		  objId.focus();
-		  return false;
-	  }
-	  if ((objPw1.value) == ""){
-          alert("비밀번호를 입력해 주세요");
-          objPw1.focus();
-          return false;
-      }
-      if ((objPw2.value)==""){
-          alert("비밀번호를 입력해 주세요");
-          objPw2.focus();
-          return false;
-      }
-      if((objPw1.value) !== (objPw2.value)) {
-    	 alert("비밀번호가 일치하지 않습니다.")
-    	 objPw1.focus();
-    	 return false;
-      }
-      document.querySelector("form.mem_join").submit();
-	  })
-// })
+// btn_home을 클릭하면 home으로 이동
+if(btn_home) {
+	btn_home.addEventListener("click",()=> {
+		location.href="${rootPath}"
+	})
+}
+if(btn_idcheck) {
+	btn_idcheck.addEventListener("click", ()=>{
+		let json = {user_id}
+		let jsonString = JSON.stringify(json);
+		fetch("${rootPath}/idcheck/" + user_id.value)
+		.then(res=>res.text())
+		.then(result=>{
+		if(result == "1"){
+		alert("이미 사용중인 아이디 입니다")
+		user_id.focus();
+		user_id.value=""
+		return false;
+		} else {
+		alert("사용할 수 있는 아이디 입니다")
+		check = "1";
+		}
+		})
+	})
+}
+
+// btn_join을 클릭하면
+if(btn_join) {
+	btn_join.addEventListener("click",()=>{
+		if(user_name.value === "") {
+			alert("이름을 입력하세요")
+			user_name.focus();
+			return false
+		}
+		if(user_id.value === ""){
+		alert("ID를 입력하세요")
+		user_id.focus();
+		return false
+		}
+		if(user_pwd.value === ""){
+		alert("비밀번호를 입력해주세요")
+		user_pwd.focus();
+		return false
+		}
+		if(user_pwd_ch.value !== user_pwd.value){
+		alert("비밀번호가 일치하지 않습니다.")
+		user_pwd_ch.focus();
+		return false
+		}
+		if(check === "0") {
+			alert("ID 중복확인을 해주세요")
+			user_id.focus();
+			return false
+		} else {
+			document.querySelector("form.form_join").submit();
+		}
+	    
+	})
+}
+
+
+
+
+
+    /*document.addEventListener("DOMContentLoaded", () => {
+      document.querySelector("button").addEventListener("click", (ev) => {
+        alert("회원가입을 환영합니다!");
+        alert("상세 날씨 페이지로 이동합니다");
+        document.location.href =
+          "http://127.0.0.1:5501/weather_ootd/logout.html";
+      });
+    });
+    document.addEventListener("DOMContentLoaded", () => {
+      document
+        .querySelector("select.textForm")
+        .addEventListener("change", (ev) => {
+          alert("상세주소를 선택해주세요");
+
+          window.open(
+             회원가입 팝업창 생성 
+
+            "popup.html",
+            "popup01",
+            "width=500, height=400, fullscreen=yes",
+            "scrollbars= 0, toolbar=0, menubar=no"
+          );
+        });
+    });*/
   </script>
 </html>

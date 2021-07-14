@@ -9,4 +9,10 @@
 			<item value="org.eclipse.ui.Examples"/>
 		</list>
 	</section>
+	<section name="ImportExportAction">
+	</section>
+	<section name="ZipFileImportWizard">
+	</section>
+	<section name="PreferencesImportWizard">
+	</section>
 </section>

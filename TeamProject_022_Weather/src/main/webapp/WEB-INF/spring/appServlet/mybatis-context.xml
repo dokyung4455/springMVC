@@ -11,7 +11,7 @@
 	<!-- dataSource -->
 	<bean id="ds" class="org.apache.commons.dbcp2.BasicDataSource">
 		<property name="driverClassName" value="com.mysql.cj.jdbc.Driver"/>
-		<property name="url" value="jdbc:mysql://localhost:3306/weatherOOtD"/>
+		<property name="url" value="jdbc:mysql://localhost:3306/weatherootd"/>
 		<property name="username" value="weaOotd"/>
 		<property name="password" value="12345"/>
 	</bean>
